@@ -1,0 +1,15 @@
+package uhd.universty;
+
+public class Engineering {
+
+    String college = "Engineering";
+    public String department = "civil";
+
+    void civil() {
+        System.out.println("to register your mark must >= 78");
+    }
+
+    class Civil extends Engineering {
+
+    }
+}

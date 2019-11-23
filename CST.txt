@@ -1,0 +1,37 @@
+package uhd.universty;
+
+interface Cst{
+    
+} 
+
+
+
+class it implements Cst {
+
+    public void ITdepartment() {
+        System.out.println("IT is department of CST college");
+    }
+
+    public void ITregister() {
+        System.out.println("to register your mark must >= 60");
+    }
+}
+
+ class cs implements Cst{
+          public void CSdepartment() {
+            System.out.println("CS is department of CST college");
+        }
+
+        public void CSregister() {
+            System.out.println("to register your mark must >= 60");
+        }
+    }
+
+
+public class cst1{
+
+    public String college = "CST";
+    public String department = "IT";
+    public String department2 = "CS";
+
+}

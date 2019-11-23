@@ -1,0 +1,36 @@
+
+package uhd.universty;
+
+interface llanguage{
+    
+} 
+
+
+
+class english implements llanguage{
+
+    public void englishdepartment() {
+        System.out.println("english is department of language college");
+    }
+
+    public void englishregister() {
+        System.out.println("to register your mark must >= 58");
+    }
+}
+
+ class arabic implements llanguage{
+          public void arabicepartment() {
+            System.out.println("arabic is department of language college");
+        }
+
+        public void arabicregister() {
+            System.out.println("to register your mark must >= 56");
+        }
+    }
+
+public class Language {
+
+    public String college = "Language";
+    public String department = "english";
+    public String department2 = "arabic";
+}

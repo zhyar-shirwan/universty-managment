@@ -1,0 +1,42 @@
+package uhd.universty;
+
+public class UHDUniversty {
+
+    public static void main(String[] args) {
+        System.out.println("WELCOME TO UNIVERSTY OF HUMAN DEVLOPMENT");
+        College a = new College();
+        a.setA("language");
+        a.setB("CST");
+        a.setC("engineering");
+        System.out.println("our college:");
+        System.out.println(a.getA() + "\n" + a.getB() + "\n" + a.getC());
+        System.out.println("--------------------------------");
+        Engineering b = new Engineering();
+        System.out.println("college : " + b.college);
+        System.out.println("Engineering department : " + b.department);
+        b.civil();
+        System.out.println("--------------------------------");
+        cst1 c = new cst1();
+        System.out.println("college : " + c.college);
+        System.out.println("CST department : " + c.department);
+        it d = new it();
+        d.ITdepartment();
+        d.ITregister();
+        System.out.println("CST department : " + c.department2);
+        cs h = new cs();
+        h.CSdepartment();
+        h.CSregister();
+        System.out.println("--------------------------------");
+        Language g = new Language();
+        System.out.println("college : " + g.college);
+        System.out.println("language department : " + g.department);
+        english f = new english();
+        f.englishdepartment();
+        f.englishregister();
+        System.out.println("language department : " + g.department2);
+        arabic z = new arabic();
+        z.arabicepartment();
+        z.arabicregister();
+    }
+
+}
